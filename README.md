@@ -70,56 +70,65 @@ The login page takes in the credentials entered by the user and verifies with th
 
 The landing page of the application after a successful login.
 
-![welcome](screenshots/welcome.png)
+![welcome](https://user-images.githubusercontent.com/95768273/226519917-c74784e9-95f0-4e11-9982-ca67c22694dd.png)
+
 
 ### Products
 
 The products section allows the user to add, edit and delete products from the store's inventory.
 
-![products](screenshots/products.png)
+![products](https://user-images.githubusercontent.com/95768273/226520037-aa030715-81e5-45e3-a57c-094b6e0d003a.png)
+
 
 ### Current Stock
 
 This section allows the user to check the availability of every item.
 
-![stock](screenshots/stock.png)
+![stock](https://user-images.githubusercontent.com/95768273/226520140-516fc0ab-0ba3-41a1-8ee4-8aeb271e48a2.png)
+
 
 ### Suppliers
 
 Here, the user can manage and manipulate the record of all the suppliers associated with the store.
 
-![suppliers](screenshots/suppliers.png)
+![suppliers](https://user-images.githubusercontent.com/95768273/226520240-b6a475e3-fca9-46dd-ade0-ebc1db4f4541.png)
+
 
 ### Customers
 
 Allows user to add new customers or update/delete existing customers in the database.
 
-![customers](screenshots/customers.png)
+![customers](https://user-images.githubusercontent.com/95768273/226520375-f21906b1-a91f-4028-a80e-3a542ede1ef2.png)
+
 
 ### Sales
 
 This section is where users can sell a product and manage all the sales transactions. 
 The user only needs to enter the customer and product code and the software will handle the rest, showing all the necessary details like available stock and selling price of the product. 
 
-![sales](screenshots/sales.png)
+![sales](https://user-images.githubusercontent.com/95768273/226520554-b1e58338-f4e6-4ee2-a21e-8664bcf4c34a.png)
+
 
 ### Purchase
 
 This section is where users can view purchase logs and enter new purchase transactions. Similar to the sales section, this section only requires the user to enter the product code and the details that are already available in the database will immediately be displayed in the respective spaces.
 
-![purchase](screenshots/purchase.png)
+![purchase](https://user-images.githubusercontent.com/95768273/226520694-85dd1791-b821-4422-a1fb-3274c04c1c1b.png)
+
 
 ### Users
 
 This section is only available to **ADMINISTRATORS**. It allows them to view, add and delete any users.
 
-![users](screenshots/users.png)
+![users](https://user-images.githubusercontent.com/95768273/226520797-5cb3b494-1e3e-445f-9895-bd07388df527.png)
+
 
 ### User Logs
 
 Stores and shows the administrator a log of all the users that have previously logged in, including their login time and logout time.
 
-![logs](screenshots/logs.png)
+![logs](https://user-images.githubusercontent.com/95768273/226520934-3972ea1a-02dd-4722-8bae-eb20941b35f8.png)
+
 
 ***
 
@@ -135,7 +144,8 @@ The following are the technologies that have been used in the development of thi
 
 The ER diagram for the sample schema that has been used in the application.
 
-![erdiag](screenshots/ERDiagram.png)
+![ERDiagram](https://user-images.githubusercontent.com/95768273/226521053-23072c64-26a8-4f7c-a376-68c0dddac41a.png)
+
 
 ## Source Code
 
@@ -145,7 +155,7 @@ The software code has been divided into four different packages:
   - Database: Contains the ConnectionFactory class that retrieves the database connection and verifies user credentials for the application.
   - User Interface (UI): Contains all the GUI classes making up the interface layer of the software.
 
-Click [here](src/com/inventory/) to skip directly to the source code.
+
 
 ## Work-in-Progress
 
